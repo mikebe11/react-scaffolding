@@ -11,20 +11,20 @@
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "@babel/preset-react": "^7.12.10",
-    "autoprefixer": "^10.1.0",
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-react": "^7.12.13",
+    "autoprefixer": "^10.2.4",
     "babel-loader": "^8.2.2",
-    "css-loader": "^5.0.1",
-    "css-minimizer-webpack-plugin": "^1.1.5",
-    "mini-css-extract-plugin": "^1.3.3",
+    "css-loader": "^5.0.2",
+    "css-minimizer-webpack-plugin": "^1.2.0",
+    "mini-css-extract-plugin": "^1.3.8",
     "node-sass": "^5.0.0",
-    "postcss-loader": "^4.1.0",
-    "sass-loader": "^10.1.0",
-    "webpack": "^5.11.0",
-    "webpack-cli": "^4.3.0",
-    "webpack-dev-server": "^3.2.1"
+    "postcss-loader": "^4.2.0",
+    "sass-loader": "^10.1.1",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
     "dev": "webpack --mode=development --color --progress",
