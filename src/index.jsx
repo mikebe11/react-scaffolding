@@ -6,9 +6,10 @@ import { App } from './App';
 
 require('./scss/styles.scss');
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('app'));
+
+root.render(
     <Provider store={store}>
         <App />
-    </Provider>,
-    document.getElementById('app')
-)
+    </Provider>
+);
