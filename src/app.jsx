@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
 
-export class App extends Component {
-    constructor(props) {
-        super(props);
-    }
+export default function App() {
+    const text = 'Hello World';
 
-    render() {
-        const text = 'Hello World';
-
-        return (
-            <div>{text}</div>
-        );
-    }
+    return (
+        <div>{text}</div>
+    );
 }
